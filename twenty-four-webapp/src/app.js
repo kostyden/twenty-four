@@ -10,21 +10,21 @@ export class App {
       {
         route: [``, `home`],
         name: `home`,
-        moduleId: `home`,
+        moduleId: PLATFORM.moduleName(`home`),
         nav: true,
         title: `Home`
       },
       {
         route: [`one`],
         name: `one`,
-        moduleId: `one`,
+        moduleId: PLATFORM.moduleName(`one`),
         nav: true,
         title: `One`
       },
       {
         route: [`two`],
         name: `two`,
-        moduleId: `two`,
+        moduleId: PLATFORM.moduleName(`two`),
         nav: true,
         title: `Two`
       }
